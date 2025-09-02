@@ -3705,7 +3705,7 @@ a.follow-vendor {
   display: block;
 }
 .header .main-header .header-logo a img {
-  min-height: 25px;
+  min-height: 65px;
   display: block;
   margin: 0px;
 }
@@ -7922,7 +7922,7 @@ h4.brush-bg::after {
 .box-discount-left {
   display: flex;
   align-items: center;
-  width: 70%;
+  width: 100%;
 }
 .box-discount-left * {
   color: #ffffff;
