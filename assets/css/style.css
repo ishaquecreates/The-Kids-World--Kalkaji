@@ -1343,7 +1343,7 @@ textarea.form-control {
   position: relative;
 }
 .heading-banner .text-up {
-  font-size: 116px;
+  font-size: 80px;
   line-height: 116px;
   color: #9F86D9;
   font-family: "Lobster Two", display;
@@ -1354,7 +1354,7 @@ textarea.form-control {
 }
 .heading-banner .text-under {
   text-transform: uppercase;
-  font-size: 116px;
+  font-size: 80px;
   line-height: 116px;
   font-weight: 700;
   color: #ffffff;
