@@ -3185,7 +3185,7 @@ a.follow-vendor {
   margin: 0 auto;
 }
 .preloader img {
-  max-width: 250px;
+  max-width: 500px;
 }
 
 .page-loading-inner {
@@ -3198,8 +3198,8 @@ a.follow-vendor {
 }
 .page-loading-inner div {
   position: absolute;
-  width: 15px;
-  height: 15px;
+  width: 105px;
+  height: 105px;
   border-radius: 50%;
   top: 50%;
   left: 50%;
@@ -3223,7 +3223,7 @@ a.follow-vendor {
 }
 
 .page-loading {
-  width: 100px;
+  width: 300px;
   height: 100px;
   display: inline-block;
   overflow: hidden;
