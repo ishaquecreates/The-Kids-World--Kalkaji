@@ -3705,7 +3705,7 @@ a.follow-vendor {
   display: block;
 }
 .header .main-header .header-logo a img {
-  /* min-height: 65px; */
+  /* min-height: 65px;+6 */
   max-height: 250px;
   display: block;
   margin: 0px;
