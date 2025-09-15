@@ -328,7 +328,7 @@ body {
 .font-sm {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 21px;
   color: #1C1D1D;
 }
@@ -3952,7 +3952,7 @@ a.follow-vendor {
 }
 .header .box-top-header {
   background-color: #EAE1D1;
-  padding: 8px 0px;
+  padding: 4px 0px;
 }
 .header .top-header {
   display: flex;
@@ -4110,7 +4110,7 @@ a.follow-vendor {
 }
 .header-style-2 .box-middle-header {
   position: relative;
-  padding: 25px 0px;
+  padding: 10px 0px;
   border-bottom: 1px solid #DBE2E5;
 }
 .header-style-2 .box-bottom-header .container {
@@ -9801,7 +9801,7 @@ h5.item-collapse.collapsed-item {
   }
   .header .main-header .header-logo a img {
     margin: 0px;
-    max-height: 25px;
+    max-height: 32px;
   }
   .list-categories {
     flex-wrap: wrap;
