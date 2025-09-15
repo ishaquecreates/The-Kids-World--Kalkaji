@@ -10751,3 +10751,23 @@ h5.item-collapse.collapsed-item {
 .page-content p {
   margin-bottom: 15px;
 }
+
+
+
+.image-container {
+  width: 100p%;       /* set your desired width */
+  height: 500px;      /* shorter than the image height */
+  overflow-y: scroll; /* enable vertical scroll */
+  overflow-x: hidden; /* prevent horizontal scroll */
+  border: 2px solid #ccc;
+   /* Hide scrollbar (cross-browser) */
+  scrollbar-width: none;    /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.image-container img {
+  display: block;
+  width: 100%; /* scale to container width */
+}
+
+
