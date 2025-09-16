@@ -9801,7 +9801,7 @@ h5.item-collapse.collapsed-item {
   }
   .header .main-header .header-logo a img {
     margin: 0px;
-    max-height: 32px;
+    max-height: 40px;
   }
   .list-categories {
     flex-wrap: wrap;
