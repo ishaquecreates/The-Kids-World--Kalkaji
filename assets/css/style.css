@@ -10755,7 +10755,7 @@ h5.item-collapse.collapsed-item {
 
 
 .image-container {
-  width: 100p%;       /* set your desired width */
+  width: 100%;       /* set your desired width */
   height: 500px;      /* shorter than the image height */
   overflow-y: scroll; /* enable vertical scroll */
   overflow-x: hidden; /* prevent horizontal scroll */
