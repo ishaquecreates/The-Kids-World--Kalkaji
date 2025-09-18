@@ -27,7 +27,8 @@ TABLE CONTENT
  WP STYPE
  Custom amine
 ***/
-@import url(https://fonts.bunny.net/css?family=lobster-two:400,700|dm-sans:400,500,700|mulish:400,700|jost:400);
+@import url(https://fonts.bunny.net/css?family=baloo-2:400,500,600,700,800);
+@import url(https://fonts.bunny.net/css?family=quicksand:300,400,500,600);
 /*import vendors*/
 @import url(../css/vendors/normalize.css);
 @import url(../css/vendors/bootstrap.min.css);
@@ -282,7 +283,7 @@ input[type=number]:focus,
 }
 
 body {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .font-3xl {
@@ -310,7 +311,7 @@ body {
 }
 
 .font-lg {
-  font-family: "DM Sans", sans-serif;
+ font-family: 'Quicksand', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
@@ -326,7 +327,7 @@ body {
 }
 
 .font-sm {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 400;
   font-size: 13px;
   line-height: 21px;
@@ -350,7 +351,7 @@ body {
 }
 
 .font-4xl-bold {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'Baloo 2', display;
   font-weight: 700;
   font-size: 48px;
   line-height: 56px;
@@ -358,7 +359,7 @@ body {
 }
 
 .font-3xl-bold {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'Baloo 2', display;
   font-weight: 700;
   font-size: 30px;
   line-height: 42px;
@@ -366,7 +367,7 @@ body {
 }
 
 .font-2xl-bold {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'Baloo 2', display;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
@@ -374,7 +375,7 @@ body {
 }
 
 .font-xl-bold {
-  font-family: "DM Sans", sans-serif;
+ font-family: 'Baloo 2', display;
   font-weight: 700;
   font-size: 20px;
   line-height: 32px;
@@ -390,7 +391,7 @@ body {
 }
 
 .font-md-bold {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'Baloo 2', display;
   font-weight: 700;
   font-size: 16px !important;
   line-height: 24px;
@@ -417,7 +418,7 @@ body {
   font-size: 16px;
   line-height: 22px;
   font-weight: 700;
-  font-family: "Mulish", sans-serif;
+ font-family: 'Baloo 2', display;
 }
 
 .font-42-bold {
@@ -465,7 +466,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "DM Sans", sans-serif;
+  /* font-family: "DM Sans", sans-serif; */
+  font-family: 'Baloo 2', display;
   font-style: normal;
   font-weight: 700;
   color: #1C1D1D;
@@ -502,7 +504,7 @@ h6 {
 }
 
 .display-1, .display-2, .display-3, .display-4, .display-5 {
-  font-family: "Mulish", sans-serif;
+ font-family: 'Baloo 2', display;
   font-style: normal;
   font-weight: 700;
   color: #1C1D1D;
