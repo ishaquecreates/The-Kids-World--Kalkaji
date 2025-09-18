@@ -7073,8 +7073,8 @@ footer a {
 .top-head {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-bottom: 32px;
+  justify-content: center;
+  margin-bottom: 60px;
 }
 .top-head .btn.btn-arrow-right {
   padding: 10px 0px 10px 20px;
