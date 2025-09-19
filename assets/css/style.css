@@ -646,7 +646,7 @@ h6 {
 }
 
 .brand-1 {
-  font-size: 50px;
+  font-size: 45px;
   color: #9F86D9;
 }
 
@@ -10300,7 +10300,10 @@ h5.item-collapse.collapsed-item {
     width: 100%;
   }
   .block-section-falshsale-5 .top-head {
-    display: inline-block;
+    /* display: inline-block; */
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
     width: 100%;
   }
   .block-section-falshsale-5 .top-head h4 {
