@@ -383,7 +383,7 @@ body {
 }
 
 .font-lg-bold {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'Baloo 2', display;
   font-weight: 700;
   font-size: 18px;
   line-height: 30px;
@@ -489,7 +489,7 @@ h3 {
 }
 
 h4 {
-  font-size: 32px;
+  font-size: 50px;
   line-height: 40px;
 }
 
@@ -646,6 +646,7 @@ h6 {
 }
 
 .brand-1 {
+  font-size: 50px;
   color: #9F86D9;
 }
 
@@ -2526,7 +2527,8 @@ a.follow-vendor {
   padding: 20px;
 }
 .cardProduct.cardProduct3 .cardImage {
-  height: 274px;
+  /* height: 274px; */
+  height: auto;
   line-height: 264px;
   background-color: #ffffff;
 }
@@ -2639,7 +2641,7 @@ a.follow-vendor {
   margin-bottom: 40px;
 }
 .cardProduct.cardProduct7 .cardImage {
-  height: 290px;
+  height: auto;
   line-height: 280px;
 }
 .cardProduct.cardProduct7 .cardInfo .cardDesc {
@@ -3798,7 +3800,7 @@ a.follow-vendor {
   margin: 5px 0;
 }
 .header .main-menu li a {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'Baloo 2', display;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -3954,7 +3956,7 @@ a.follow-vendor {
 }
 .header .box-top-header {
   background-color: #EAE1D1;
-  padding: 4px 0px;
+  padding: 2px 0px;
 }
 .header .top-header {
   display: flex;
