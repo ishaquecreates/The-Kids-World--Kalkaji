@@ -10943,3 +10943,6 @@ h5.item-collapse.collapsed-item {
 .cardProduct .cardInfo {
   margin-top: 10px;
 }
+.container {
+  max-width: 100% !important;
+}
