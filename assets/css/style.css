@@ -598,7 +598,8 @@ h6 {
 }
 
 .neutral-500 {
-  color: #646667 !important;
+  /* color: #646667 !important; */
+  color: #646667 ;
 }
 
 .neutral-400 {
@@ -2995,6 +2996,7 @@ a.follow-vendor {
   padding: 17px 25px;
   background-color: #9F86D9;
   color: #ffffff;
+  display: none;
 }
 .cardPromotion .cardInfo * {
   color: #ffffff;
@@ -5220,6 +5222,7 @@ body {
 .footer-top {
   border-bottom: 1px solid #e0e0e0;
   padding-bottom: 40px;
+  padding-right: 50px;
 }
 
 .footer-column .footer-logo img {
@@ -10950,4 +10953,33 @@ h5.item-collapse.collapsed-item {
 }
 .container {
   max-width: 100% !important;
+}
+
+.text-black-40 {
+color: black !important;
+font-weight: 700 !important;
+}
+.inlinebox{
+display: flex;
+justify-content: center;
+}
+.ped{
+  padding: 5px;
+}
+
+.color-green{
+  color: #009e50 !important;
+ 
+}
+.color-blue{
+  color: #009dd7 !important;
+ 
+}
+.color-purple{
+  color: #5e2c81 !important;
+ 
+}
+.color-pink{
+  color: #fe0081 !important;
+ 
 }
