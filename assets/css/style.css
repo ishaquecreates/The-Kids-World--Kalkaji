@@ -1423,7 +1423,7 @@ textarea.form-control {
 }
 
 .block-section {
-  padding: 40px 0px 0px 0px;
+  padding: 90px 0px 0px 0px;
 }
 
 .box-banner-popup {
@@ -7203,7 +7203,8 @@ h4.brush-bg::after {
 }
 
 .block-section-5 {
-  padding-top: 90px;
+  padding-top: 140px;
+  padding-bottom: 50px;
 }
 
 .box-section-animal {
@@ -10996,4 +10997,7 @@ ul {
   justify-content: center !important;
   text-decoration: none !important;
   padding-right: 20px !important;
+}
+.margin{
+  margin: 100px !important;
 }
