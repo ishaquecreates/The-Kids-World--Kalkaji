@@ -3975,6 +3975,7 @@ a.follow-vendor {
   display: inline-block;
   text-decoration: none;
   padding: 3px 0px 3px 30px;
+  margin-left: 30px;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -10989,4 +10990,10 @@ justify-content: center;
 ul {
     margin-top: 0;
     margin-bottom: 0rem !important;
+}
+.support{
+  text-align: center !important;
+  justify-content: center !important;
+  text-decoration: none !important;
+  padding-right: 20px !important;
 }
