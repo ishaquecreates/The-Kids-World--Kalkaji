@@ -7205,7 +7205,7 @@ h4.brush-bg::after {
 }
 
 .block-section-5 {
-  padding-top: 160px;
+  padding-top: 60px;
   padding-bottom: 50px;
   
 }
@@ -7306,6 +7306,7 @@ h4.brush-bg::after {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
+  padding-top: 50px;
 }
 .box-logos img {
   margin-bottom: 20px;
@@ -11016,3 +11017,28 @@ ul {
    background-color: #f8f8f8 !important;
 }
  
+.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+    display: block !important;
+}
+.box-list-products{
+  padding-right: 30px !important;
+  padding-left: 50px !important;
+}
+.br-brush::after {
+  content: "";
+  position: absolute;
+  width: 262px;
+  height: 53px;
+  bottom: 0px;
+  z-index: -1;
+  background-image: url("../imgs/template/brush-bg.svg");
+  left: -0px;
+}
+
+.ped-top{
+  padding-top: 150px !important;
+}
+.ped-bot{
+  padding-bottom: 50px !important;
+}
