@@ -1093,6 +1093,41 @@
         </div>
       </div>
     </section>
+
+
+<div class="container py-5 py-6">
+    <h2 class="text-center mb-4">Happy Customer Feedback</h2>
+    <div class="owl-carousel owl-theme">
+      
+      <!-- Testimonial 1 -->
+      <div class="testimonial-card position-relative">
+        <span class="feedback-badge">Happy Customer Feedback</span>
+        <img src="https://lipsum.app/id/21/400x200" alt="Customer">
+        <p class="testimonial-text">Wonderful collection… one stop solution for all kids requirements.</p>
+        <p class="testimonial-name">Abhishek Nigam</p>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="testimonial-card position-relative">
+        <span class="feedback-badge">Happy Customer Feedback</span>
+        <img src="https://lipsum.app/id/23/400x200" alt="Customer">
+        <p class="testimonial-text">I found the perfect Rakhi outfit for my son – and the staff helped me every step of the way!</p>
+        <p class="testimonial-name">Riya Singh</p>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="testimonial-card position-relative">
+        <span class="feedback-badge">Happy Customer Feedback</span>
+        <img src="https://lipsum.app/id/24/400x200" alt="Customer">
+        <p class="testimonial-text">Perfect festive collection for kids! Trendy styles and great service. Will visit again!</p>
+        <p class="testimonial-name">Rishu Sabharwal</p>
+      </div>
+
+    </div>
+  </div>
+
+
+
     <div class="section block-section block-section-instagram-5">
       <div class="container">
         <div class="top-head top-head-abs justify-content-center">
@@ -1732,6 +1767,21 @@
       }
     });
   });
+   $(document).ready(function(){
+      $(".owl-carousel").owlCarousel({
+        loop:true,
+        margin:20,
+        nav:true,
+        dots:true,
+        autoplay:true,
+        autoplayTimeout:3000,
+        responsive:{
+          0:{ items:1 },
+          768:{ items:2 },
+          992:{ items:3 }
+        }
+      });
+    });
 </script>
 
 </body>
