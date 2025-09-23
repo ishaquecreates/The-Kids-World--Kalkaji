@@ -313,7 +313,7 @@ body {
 .font-lg {
  font-family: 'Quicksand', sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 30px;
   color: #1C1D1D;
 }
@@ -10972,6 +10972,10 @@ justify-content: center;
   padding: 5px;
 }
 
+.tophedaing{
+  font-size: 35px !important;
+  color: #1a1a1a !important;
+}
 .color-green{
   color: #009e50 !important;
  
