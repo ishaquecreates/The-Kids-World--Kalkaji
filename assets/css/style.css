@@ -1423,7 +1423,7 @@ textarea.form-control {
 }
 
 .block-section {
-  padding: 130px 0px 0px 0px;
+  padding: 110px 0px 0px 0px;
 }
 
 .box-banner-popup {
@@ -11037,8 +11037,83 @@ ul {
 }
 
 .ped-top{
-  padding-top: 150px !important;
+  padding-top: 100px !important;
 }
 .ped-bot{
   padding-bottom: 50px !important;
+}
+.box-logos img {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+  margin: 10px; /* Optional: adds spacing between logos */
+  max-height: 80px; /* Optional: control logo size */
+}
+
+.box-logos img:hover {
+  filter: grayscale(0%);
+}
+/* Swiper slide wrapper fix */
+.swiper-container {
+  padding: 20px 0;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: stretch; /* ensures equal height across cards */
+}
+
+/* Card styling */
+.cardReview {
+  width: 420px;               /* fixed width */
+  min-height: 300px;          /* minimum height */
+  max-height: 380px;          /* max height control */
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Card text */
+.cardReviewText {
+  flex: 1;
+  margin-bottom: 15px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  overflow: hidden;        /* Prevent overflow text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Rating section */
+.cardRating {
+  margin-bottom: 12px;
+}
+
+.cardRating img {
+  width: 18px;
+  margin-right: 2px;
+}
+
+/* Author section */
+.cardAuthor {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cardAuthor img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.small-font{
+  font-size: 30px !important;
+  color: #9F86D9 !important;
 }
