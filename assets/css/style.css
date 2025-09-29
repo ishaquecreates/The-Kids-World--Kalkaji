@@ -7635,6 +7635,8 @@ h4.brush-bg::after {
 }
 .list-product-5-col .cardProduct {
   width: 20%;
+  border: 1px solid #DBE2E5;
+  /* margin: 3px; */
   padding: 0px 10px;
 }
 
