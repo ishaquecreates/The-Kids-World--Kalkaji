@@ -30,7 +30,8 @@ TABLE CONTENT
  /* Owl Carousel CSS  */
 @import url(https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css);
-/* Owl Carousel CSS */
+/* font import CSS */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url(https://fonts.bunny.net/css?family=baloo-2:400,500,600,700,800);
 @import url(https://fonts.bunny.net/css?family=quicksand:300,400,500,600);
 /*import vendors*/
@@ -7091,17 +7092,26 @@ footer a {
 }
 
 .top-head {
-  display: flex;
+  display: block;
+  text-align: center;
   align-items: center;
   justify-content: center;
+  
   margin-bottom: 60px;
 }
 .top-head .btn.btn-arrow-right {
   padding: 10px 0px 10px 20px;
   min-width: 124px;
 }
+.top-head h3 {
+    margin-bottom: 5px;
+}
 .top-head h4 {
   position: relative;
+  background-image: url("../imgs/template/brush-bg.svg");
+  background-repeat: no-repeat;
+  background-position:  center;
+  margin-bottom: 10px;
   
 }
 .top-head h4::after {
@@ -7111,9 +7121,9 @@ footer a {
   height: 53px;
   bottom: 0px;
   z-index: -1;
-  background-image: url("../imgs/template/brush-bg.svg");
+  /* background-image: url("../imgs/template/brush-bg.svg"); */
   background-repeat: no-repeat;
-  background-position: left center;
+  background-position:  center;
   left: -20px;
 }
 
@@ -11054,16 +11064,22 @@ ul {
 .ped-bot{
   padding-bottom: 50px !important;
 }
+/* image hover color change  */
 .box-logos img {
-  filter: grayscale(100%);
-  transition: filter 0.3s ease;
+  
+  height:80px;
+  border: 1px solid whitesmoke;
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.2); /* right and bottom shadow */
+  /* filter: grayscale(100%);
+  transition: filter 0.3s ease; */
   margin: 10px; /* Optional: adds spacing between logos */
-  max-height: 80px; /* Optional: control logo size */
+  padding: 10px;
 }
 
 .box-logos img:hover {
   filter: grayscale(0%);
 }
+
 /* Swiper slide wrapper fix */
 .swiper-container {
   padding: 20px 0;
@@ -11139,6 +11155,30 @@ ul {
   background-position: center;
   right: 50px;}
   .bgimg{
+    background-image: url("../imgs/template/brush-bg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .btn-color{
+  font-family: 'Baloo 2', display !important;
+  font-style: normal!important;
+  font-weight: 600!important;
+  color: black !important; 
+  background-color: #f7c210 !important; 
+  width: 15% !important;
+  }
+
+
+  .center-heading {
+  display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    min-width: 124px;
+    padding: 10px 0px 10px 20px;
+    position: relative;
     background-image: url("../imgs/template/brush-bg.svg");
     background-repeat: no-repeat;
     background-position: center;
