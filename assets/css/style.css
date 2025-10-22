@@ -288,7 +288,7 @@ input[type=number]:focus,
 }
 
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', sans-serif !important;
 }
 
 .font-3xl {
@@ -5025,11 +5025,11 @@ justify-content: center;
   list-style: none;
   margin-bottom: 12px;
 }
-.footer .menu-footer li a {
+.footer .menu-footer li a p {
   color: #1C1D1D;
   font-size: 16px;
   line-height: 30px;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'Baloo 2', display !important;
   font-weight: 400;
   text-decoration: none;
   display: block;
