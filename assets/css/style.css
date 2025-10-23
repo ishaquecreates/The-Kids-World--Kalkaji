@@ -8660,7 +8660,12 @@ h5.item-collapse.collapsed-item {
   max-width: 1024px;
   margin: auto auto 58px auto;
 }
-
+ 
+.banner-image {
+  max-width: 1324px;
+  margin: auto auto 58px auto;
+}
+ 
 .container-1190 {
   max-width: 1190px;
   margin: auto;
